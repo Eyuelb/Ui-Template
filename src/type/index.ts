@@ -121,7 +121,7 @@ export interface ModalProductCardProps {
 
 // Represents props for Tabs component
 export interface TabsProps {
-    icon: any;
+    icon: React.ReactElement;
     label: string;
     url: string;
     description?: string; // Optional description for the tab
